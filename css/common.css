@@ -1,0 +1,899 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Font Face Starts 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Thin Font Weight 		: 100;
+Light Font Weight 		: 300;
+Regular Font Weight 	: 400;
+Medium Font Weight 		: 500;
+Semi-bold Font Weight 	: 600;
+Bold Font Weight 		: 700;
+Ultra-Bold Font Weight 	: 700;
+
+   Font Face Ends */
+
+
+body, html
+{
+	width:100%;
+	height:100%;
+	margin:0 !important;
+	padding:0 !important;
+	font-family: 'Roboto', sans-serif;
+	position:relative;
+}
+
+/* Typography starts */
+
+a:hover, a:focus, .btn:hover, .btn:focus, .btn.focus
+{
+	text-decoration:none;
+	outline:none;
+}
+
+h1, h2, h3
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h4, h5, h6
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 
+{
+  font-size: 36px;
+  font-weight:700;
+}
+h2
+{
+  font-size: 30px;
+  font-weight:700;
+}
+h3
+{
+  font-size: 24px;
+  font-weight:600;
+}
+h4
+{
+  font-size: 18px;
+  font-weight:500;
+}
+h5
+{
+  font-size: 14px;
+  font-weight:400;
+}
+h6
+{
+  font-size: 12px;
+  font-weight:400;
+}
+p
+{
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight:400;
+}
+
+
+/* Typography Ends */
+
+/* Font Styles starts */
+
+.f-bold
+{
+	font-weight:700 !important;
+}
+.f-reg
+{
+	font-weight:400 !important;
+}
+
+.f-size8
+{
+	font-size: 8px;
+}
+.f-size10
+{
+	font-size: 10px;
+}
+.f-size12
+{
+	font-size: 12px;
+}
+.f-size14
+{
+	font-size: 14px;
+}
+.f-size16
+{
+	font-size: 16px;
+}
+.f-size18
+{
+	font-size: 18px;
+}
+.f-size20
+{
+	font-size: 20px;
+}
+.f-size22
+{
+	font-size: 22px;
+}
+.f-size24
+{
+	font-size: 24px;
+}
+.f-size26
+{
+	font-size: 26px;
+}
+.f-size28
+{
+	font-size: 28px;
+}
+.f-size30
+{
+	font-size: 30px;
+}
+.f-size32
+{
+	font-size: 32px;
+}
+.f-size34
+{
+	font-size: 34px;
+}
+.f-size36
+{
+	font-size: 36px;
+}
+.f-size38
+{
+	font-size: 38px;
+}
+.f-size40
+{
+	font-size: 40px;
+}
+.f-size42
+{
+	font-size: 42px;
+}
+.f-size44
+{
+	font-size: 44px;
+}
+.f-size46
+{
+	font-size: 46px;
+}
+.f-size48
+{
+	font-size: 48px;
+}
+.f-size50
+{
+	font-size: 50px;
+}
+.f-size52
+{
+	font-size: 52px;
+}
+.f-size54
+{
+	font-size: 54px;
+}
+.f-size56
+{
+	font-size: 56px;
+}
+.f-size58
+{
+	font-size: 58px;
+}
+.f-size60
+{
+	font-size: 60px;
+}
+
+
+/* Font Styles ends */
+
+/* Margin CSS starts */
+
+.no-margin
+{
+	margin:0;
+}
+.no-boot-margin
+{
+	margin-left:0;
+	margin-right:0;
+}
+
+/* Margin Common starts */
+
+.margin5
+{
+	margin: 5px;
+}
+.margin10
+{
+	margin: 10px;
+}
+.margin15
+{
+	margin: 15px;
+}
+.margin20
+{
+	margin: 20px;
+}
+.margin25
+{
+	margin: 25px;
+}
+.margin30
+{
+	margin: 30px;
+}
+.margin35
+{
+	margin: 35px;
+}
+.margin40
+{
+	margin: 40px;
+}
+.margin45
+{
+	margin: 45px;
+}
+.margin50
+{
+	margin: 50px;
+}
+
+/* Margin Common ends */
+
+/* Margin Top starts */
+
+.tmar5
+{
+	margin-top: 5px;
+}
+.tmar10
+{
+	margin-top: 10px;
+}
+.tmar15
+{
+	margin-top: 15px;
+}
+.tmar20
+{
+	margin-top: 20px;
+}
+.tmar25
+{
+	margin-top: 25px;
+}
+.tmar30
+{
+	margin-top: 30px;
+}
+.tmar35
+{
+	margin-top: 35px;
+}
+.tmar40
+{
+	margin-top: 40px;
+}
+.tmar45
+{
+	margin-top: 45px;
+}
+.tmar50
+{
+	margin-top: 50px;
+}
+
+/* Margin Top ends */
+
+/* Margin Bottom starts */
+
+.bmar5
+{
+	margin-bottom: 5px;
+}
+.bmar10
+{
+	margin-bottom: 10px;
+}
+.bmar15
+{
+	margin-bottom: 15px;
+}
+.bmar20
+{
+	margin-bottom: 20px;
+}
+.bmar25
+{
+	margin-bottom: 25px;
+}
+.bmar30
+{
+	margin-bottom: 30px;
+}
+.bmar35
+{
+	margin-bottom: 35px;
+}
+.bmar40
+{
+	margin-bottom: 40px;
+}
+.bmar45
+{
+	margin-bottom: 45px;
+}
+.bmar50
+{
+	margin-bottom: 50px;
+}
+
+/* Margin Bottom ends */
+
+/* Margin Left starts */
+
+.lmar5
+{
+	margin-left: 5px;
+}
+.lmar10
+{
+	margin-left: 10px;
+}
+.lmar15
+{
+	margin-left: 15px;
+}
+.lmar20
+{
+	margin-left: 20px;
+}
+.lmar25
+{
+	margin-left: 25px;
+}
+.lmar30
+{
+	margin-left: 30px;
+}
+.lmar35
+{
+	margin-left: 35px;
+}
+.lmar40
+{
+	margin-left: 40px;
+}
+.lmar45
+{
+	margin-left: 45px;
+}
+.lmar50
+{
+	margin-left: 50px;
+}
+
+/* Margin Left ends */
+
+/* Margin Right starts */
+
+.rmar5
+{
+	margin-right: 5px;
+}
+.rmar10
+{
+	margin-right: 10px;
+}
+.rmar15
+{
+	margin-right: 15px;
+}
+.rmar20
+{
+	margin-right: 20px;
+}
+.rmar25
+{
+	margin-right: 25px;
+}
+.rmar30
+{
+	margin-right: 30px;
+}
+.rmar35
+{
+	margin-right: 35px;
+}
+.rmar40
+{
+	margin-right: 40px;
+}
+.rmar45
+{
+	margin-right: 45px;
+}
+.rmar50
+{
+	margin-right: 50px;
+}
+
+/* Margin Right ends */
+
+
+/* Margin CSS Ends */
+
+
+/* Padding CSS starts */
+
+.no-padding
+{
+	padding:0;
+}
+.no-boot-padding
+{
+	padding-left:0;
+	padding-right:0;
+}
+
+/* Padding Common starts */
+
+.padding5
+{
+	padding: 5px;
+}
+.padding10
+{
+	padding: 10px;
+}
+.padding15
+{
+	padding: 15px;
+}
+.padding20
+{
+	padding: 20px;
+}
+.padding25
+{
+	padding: 25px;
+}
+.padding30
+{
+	padding: 30px;
+}
+.padding35
+{
+	padding: 35px;
+}
+.padding40
+{
+	padding: 40px;
+}
+.padding45
+{
+	padding: 45px;
+}
+.padding50
+{
+	padding: 50px;
+}
+
+/* Padding Common ends */
+
+/* Padding Top starts */
+
+.tpad5
+{
+	padding-top: 5px;
+}
+.tpad10
+{
+	padding-top: 10px;
+}
+.tpad15
+{
+	padding-top: 15px;
+}
+.tpad20
+{
+	padding-top: 20px;
+}
+.tpad25
+{
+	padding-top: 25px;
+}
+.tpad30
+{
+	padding-top: 30px;
+}
+.tpad35
+{
+	padding-top: 35px;
+}
+.tpad40
+{
+	padding-top: 40px;
+}
+.tpad45
+{
+	padding-top: 45px;
+}
+.tpad50
+{
+	padding-top: 50px;
+}
+
+/* Padding Top ends */
+
+/* Padding Bottom starts */
+
+.bpad5
+{
+	padding-bottom: 5px;
+}
+.bpad10
+{
+	padding-bottom: 10px;
+}
+.bpad15
+{
+	padding-bottom: 15px;
+}
+.bpad20
+{
+	padding-bottom: 20px;
+}
+.bpad25
+{
+	padding-bottom: 25px;
+}
+.bpad30
+{
+	padding-bottom: 30px;
+}
+.bpad35
+{
+	padding-bottom: 35px;
+}
+.bpad40
+{
+	padding-bottom: 40px;
+}
+.bpad45
+{
+	padding-bottom: 45px;
+}
+.bpad50
+{
+	padding-bottom: 50px;
+}
+
+/* Padding Bottom ends */
+
+/* Padding Left starts */
+
+.lpad5
+{
+	padding-left: 5px;
+}
+.lpad10
+{
+	padding-left: 10px;
+}
+.lpad15
+{
+	padding-left: 15px;
+}
+.lpad20
+{
+	padding-left: 20px;
+}
+.lpad25
+{
+	padding-left: 25px;
+}
+.lpad30
+{
+	padding-left: 30px;
+}
+.lpad35
+{
+	padding-left: 35px;
+}
+.lpad40
+{
+	padding-left: 40px;
+}
+.lpad45
+{
+	padding-left: 45px;
+}
+.lpad50
+{
+	padding-left: 50px;
+}
+
+/* Padding Left ends */
+
+/* Padding Right starts */
+
+.rpad5
+{
+	padding-right: 5px;
+}
+.rpad10
+{
+	padding-right: 10px;
+}
+.rpad15
+{
+	padding-right: 15px;
+}
+.rpad20
+{
+	padding-right: 20px;
+}
+.rpad25
+{
+	padding-right: 25px;
+}
+.rpad30
+{
+	padding-right: 30px;
+}
+.rpad35
+{
+	padding-right: 35px;
+}
+.rpad40
+{
+	padding-right: 40px;
+}
+.rpad45
+{
+	padding-right: 45px;
+}
+.rpad50
+{
+	padding-right: 50px;
+}
+
+/* Padding Right ends */
+
+/* Padding CSS Ends */
+
+/* Anchor, Image & Span Typography starts */
+
+li a, p a
+{
+	color: inherit;
+}
+img
+{
+	width:100%;
+}
+span
+{
+
+}
+
+/* Anchor & Span Typography ends */
+
+/* Colors Starts */
+
+.no-bg
+{
+	background:none;
+}
+.no-bg-img
+{
+	background-image:none;
+}
+.bg-black
+{
+	background-color:#000;
+}
+.bg-white
+{
+	background-color:#FFF;
+}
+.bg-green
+{
+	background-color:#0F0;
+}
+.bg-red
+{
+	background-color:#F00;
+}
+.bg-blue
+{
+	background-color:#00F;
+}
+.bg-yellow
+{
+	background-color:#FF0;
+}
+.clr-white
+{
+	color:#FFF;
+}
+.clr-black
+{
+	color:#000;
+}
+.clr-green
+{
+	color:#0F0;
+}
+.clr-red
+{
+	color:#F00;
+}
+.clr-blue
+{
+	color:#00F;
+}
+.clr-yellow
+{
+	color:#FF0;
+}
+
+/* Colors Ends */
+
+/* Form CSS starts */
+
+.bdr
+{
+	border-color:#CCC;
+	border-style:solid;
+	border:1px;
+}
+.t-bdr
+{
+	border-style: solid none none none;
+}
+.b-bdr
+{
+	border-style: none none solid none;
+}
+.l-bdr
+{
+	border-style: none none none solid;
+}
+.r-bdr
+{
+	border-style: none solid none none;
+}
+
+/* .form-control
+{
+	display: block;
+    width: 100%;
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+::-webkit-input-placeholder { 
+    color: #0C0 !important;
+}
+:-moz-placeholder { 
+   color:  #0C0 !important;
+   opacity:  1;
+}
+::-moz-placeholder { 
+   color:  #0C0 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:  #0C0 !important;
+}
+
+[type="search"] 
+{
+   -moz-appearance:    textfield;
+   -webkit-appearance: textfield;
+   appearance: textfield;
+}
+
+.form-inline .form-group
+{
+	margin-right:20px;
+	margin-left:0;
+}
+.form-inline .form-group + .form-group
+{
+	margin-left:10px;
+}
+.form-inline label
+{
+	margin-right:20px;
+}
+.tokenize-sample 
+{ 
+	width: 100%; 
+}
+div.Tokenize ul.TokensContainer
+{
+	height:35px;
+} */
+
+/* Form CSS ends */
+
+/* Animation CSS starts */
+
+/* .transition-eff
+{
+	transition:all 0.6s ease;
+	-webkit-transition:all 0.6s ease;
+	-moz-transition:all 0.6s ease;
+	-ms-transition:all 0.6s ease;
+	-o-transition:all 0.6s ease;
+}
+.anime-name {
+  -webkit-animation-name: name-eff;
+  animation-name: name-eff;
+  -webkit-transform-origin: center name-eff;
+  transform-origin: center name-eff;
+}
+
+@-webkit-keyframes name-eff {
+  from {
+    
+  }
+	
+	
+  to {
+	  
+  }
+  
+} */
+
+/* Animation CSS ends */
+
+/* Header CSS Starts 
+
